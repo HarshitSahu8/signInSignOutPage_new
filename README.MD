@@ -26,6 +26,14 @@ superplate is a Next.js all-in-one project generator. Create your project with t
 ```bash
     npm run start
 ```
+## Register Page
+![Screenshot from 2022-05-02 08-39-53](https://user-images.githubusercontent.com/98023409/166179903-e319f900-31fb-4488-82a0-8a4d16ad640e.png)
+
+## LogIn Page
+![Screenshot from 2022-05-02 08-39-34](https://user-images.githubusercontent.com/98023409/166179853-91168f3a-7110-41b4-8459-32102e141b6d.png)
+
+## Main Page
+![Screenshot from 2022-05-02 08-40-11](https://user-images.githubusercontent.com/98023409/166179964-cee23620-f951-4b79-8bd1-ed2df82e5f39.png)
 
 ## Learn More
 
