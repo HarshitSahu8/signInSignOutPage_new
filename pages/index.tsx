@@ -1,21 +1,24 @@
+import Card from "@components/Card";
+import { LogIn } from "@components/Home";
+import Register from "@components/Register";
+import { Box } from "@mui/system";
 import React from "react";
-
-import { Header, Main, Cards, Footer } from "@components/css";
-
-const Home: React.FC = () => {
+import { useForm } from "react-hook-form";
+const Home = () => {
+    const {
+        handleSubmit,
+        watch,
+        formState: { errors },
+        control,
+    } = useForm();
+    const onSubmit = (data: any) => console.log(data);
     return (
-        <div
-            style={{
-                display: "flex",
-                flexDirection: "column",
-                minHeight: "100vh",
-            }}
-        >
-            <Header />
-            <Main />
-            <Cards />
-            <Footer />
-        </div>
+        <Box>
+            <Card>
+                <LogIn />
+                {/* <Register /> */}
+            </Card>
+        </Box>
     );
 };
 
